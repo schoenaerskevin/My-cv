@@ -1,0 +1,197 @@
+body
+{
+	background-color: #fc8003; 
+	color: white;
+	display:grid;
+	grid-template-columns: 170px[A] 230px[B] auto[C] auto[D] ;
+	grid-template-rows:200px[E] auto[f] auto[G] auto[H];
+	grid-template-areas:"moi donnees prof" ;
+	margin: 10px;
+	grid-gap:10px;
+}
+
+.profil
+{
+	height:150px;
+	width:auto;
+}
+
+.moi
+{
+	grid-area: moi;
+	padding:10px;
+	background-color: green;
+}
+
+.donnees
+{
+	grid-area:donnees;
+	background-color: green;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.1em;
+}
+
+.prof
+{
+	grid-area:prof;
+	grid-column:3/5;
+	grid-row:1/3 ;
+	background-color:green;
+}
+
+.form
+{
+	grid-column :1;
+	grid-row: 2/3;
+	background-color: green;
+}
+
+.comp
+{
+	grid-column:2;
+	grid-row:2/3;
+	background-color: green;
+	
+}
+
+.barre25
+{
+	width: 200px;
+    height: 20px;
+    padding: 1px;
+    background-color: #191919;
+	border-radius: 20px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+	}
+
+	.barre25:before 
+	{ 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 19px;
+    background: #999;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.barre50
+{
+		width: 200px;
+		height: 20px;
+		padding: 1px;
+		background-color: #191919;
+		border-radius: 20px;
+		-webkit-border-radius: 14px;
+		-moz-border-radius: 14px;
+		box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+		-webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+		-moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+		
+}
+
+.barre50:before 
+{ 
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100px;
+		height: 19px;
+		background: #999;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.barre75
+{
+	width: 200px;
+    height: 20px;
+    padding: 1px;
+    background-color: #191919;
+	border-radius: 20px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;  
+}
+
+.barre75:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.barre100
+{
+	width: 200px;
+    height: 20px;
+    padding: 1px;
+    background-color: #191919;
+	border-radius: 20px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    
+}
+.barre100:before
+{ 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.qualité
+{
+	grid-column:1/3;
+	grid-row:3/5;
+	background-color: green;
+}
+
+.loisir
+{
+	grid-column:3;
+	grid-row:3;
+	background-color: green;
+}
+
+.vide
+{
+	grid-column:4;
+	grid-row:4;
+	background-color: green;
+}
